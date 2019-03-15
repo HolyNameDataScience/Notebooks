@@ -1,7 +1,7 @@
 
 # README
 
-This file is a meeting agenda. 
+This file is a meeting agenda. (data is coming soon)
 
 
 
