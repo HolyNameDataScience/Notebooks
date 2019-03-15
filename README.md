@@ -1,7 +1,7 @@
 
 README
 
-this file is used as a meeting agenda. 
+### this file can be used as a meeting agenda. 
 
 
 
