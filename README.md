@@ -45,8 +45,10 @@ https://nbviewer.jupyter.org/github/HolyNameDataScience/Notebooks/blob/master/ca
 
 #### Case Study II (Classification)
 
-
+https://nbviewer.jupyter.org/github/HolyNameDataScience/RDMeetingMaterials/blob/master/caseII.ipynb
 
 ### 3. General Questions:
+
+TensorFlow Models
 
 
