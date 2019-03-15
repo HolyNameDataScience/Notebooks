@@ -1,17 +1,21 @@
 
-README
+# README
 
-### this file can be used as the meeting agenda 
-
-
-
-### 1. Use DataRobot:
-
--- Time Series Case Using Data Robot ( will add a sample data and problem description)
+This file is a meeting agenda. 
 
 
 
-### 2. Models:
+### 1. Questions about DataRobot:
+
+-- Time Series Case Using Data Robot ( will add a problem description and sample data)
+
+```
+Give examples
+```
+
+
+### 2. Two Case Studies and Relevant Questions:
+
 
 #### Case Study I (Regression)
 
@@ -22,6 +26,6 @@ https://nbviewer.jupyter.org/github/HolyNameDataScience/Notebooks/blob/master/ca
 
 
 
-### 3. Q & A:
+### 3. General Questions:
 
-1. the questions from case study
+
