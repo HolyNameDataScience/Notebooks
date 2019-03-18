@@ -18,7 +18,7 @@ This file is a meeting agenda. (data is coming soon)
 
 * An Example: Patient A has historical medical records on 2017/1/1, 2017/3/14, 2017/4/5, 2018/4/5, and 2018/12/1. We would like to predict his/her next expenditure after the last records.)
 
-* Sample Data:
+* Sample Data (see 1_data):
 train: 153 patient historical expenditure time series and their basic informations (patient_time_series_train.csv)
 test: most recent expenditure (patient_time_series_test.csv)
 
@@ -41,12 +41,12 @@ Expenditure Change Ration: current expenditure / last time expenditure
 ### 2. Two Case Studies and Relevant Questions:
 
 
-#### Case Study I (Regression)
+#### Case Study I (Regression) (for data, see 2_data)
 
 https://nbviewer.jupyter.org/github/HolyNameDataScience/Notebooks/blob/master/case1.ipynb
 
 
-#### Case Study II (Classification)
+#### Case Study II (Classification) (for data, see 3_data)
 
 https://nbviewer.jupyter.org/github/HolyNameDataScience/RDMeetingMaterials/blob/master/caseII.ipynb
 
