@@ -7,7 +7,13 @@ This file is a meeting agenda. (data is coming soon)
 
 ### 1. Questions about DataRobot:
 
--- How to imporve time series model's performance with DataRobot ( will add a problem description and sample data)
+-- How to improve the performance of time series models with DataRobot
+( For example, patient 1 has medical records on 2017/1/1, 2017/3/14, 2017/4/5, 2018/4/5, and 2018/12/1. We would like to predict his/her medical conditions after the last records. )
+
+Sample Data: 
+train: patient_time_series_train.csv
+test: patient_time_series_test.csv
+
 
 ```
 problem: to predict patient next Expenditure Change Ratio based on their expenditure history and fundamental records
