@@ -7,29 +7,29 @@ This file is a meeting agenda. (data is coming soon)
 
 ### 1. Questions about DataRobot:
 
--- How to improve the performance of time series models with DataRobot
-( For example, patient 1 has medical records on 2017/1/1, 2017/3/14, 2017/4/5, 2018/4/5, and 2018/12/1. We would like to predict his/her medical conditions after the last records. )
-
-Sample Data: 
-train: patient_time_series_train.csv
-test: patient_time_series_test.csv
+#### How to improve the performance of time series models with DataRobot?
 
 
 ```
-problem: to predict patient next Expenditure Change Ratio based on their expenditure history and fundamental records
 
-Expenditure Change Ration: current expenditure / last time expenditure
+Problem: how to predict patients' next Expenditure Change Ratio based on their historical data?
 
+Expenditure Change Ratio: new expenditure amount/previous expenditure amount - 1.0
 
-train: 153 patient historical expenditure time series and their basic informations
-test: most recent expenditure
+An Example: Patient A has historical medical records on 2017/1/1, 2017/3/14, 2017/4/5, 2018/4/5, and 2018/12/1. We would like to predict his/her next expenditure after the last records.)
+
+Sample Data: 
+train: 153 patient historical expenditure time series and their basic informations (patient_time_series_train.csv)
+test: most recent expenditure (patient_time_series_test.csv)
 
 
 DataRobot: featureList:
 
 1. patientID (catergorical 153 categories)
 2. payment date (date)
-3. payment rate of change (compare to last time)
+3. payment rate of change
+Expenditure Change Ration: current expenditure / last time expenditure
+ (compare to last time)
 4. most recent diagnosis code (as text)
 5. number of primary diagnosis codes during life time
 6. zip code
